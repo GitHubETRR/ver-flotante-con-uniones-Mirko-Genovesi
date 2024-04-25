@@ -6,7 +6,6 @@ union{
     float valor;
     unsigned char bytes[sizeof(float)]; 
 }var;
-//No pude poner que tome el tipo de var.valor dentro del struct para que funcione con cualquier tipo de variable sin cambiarlo manualmente.
 
 
 void main() {
